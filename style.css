@@ -1,4 +1,72 @@
 html {
   height: 100%;
   width: 100%;
+  flex-wrap: flex;
+}
+
+/* Navbar */
+nav{
+  font-family: Alatsi;
+}
+
+/* Navbar links */
+a{
+  text-align: center;
+}
+
+/* Top box */
+.personalityBox{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 58px;
+  display: flex;  
+  flex-wrap: wrap;
+}
+
+/* Bottom box */
+.codingJourneyBox{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 58px;
+  display: flex;  
+  flex-wrap: wrap;
+}
+
+/* Top box columns */
+.personalityBox .col{
+  /*border: solid 3px black;*/
+  background-color: #FFE278;
+}
+
+/* Bottom box columns */
+.codingJourneyBox .col{
+  /*border: solid 3px black;*/
+  background-color: #D9D9D9;
+}
+
+/* Images */
+
+/* Python and Java image div */
+.col-images{
+  /*border: solid 3px black;*/
+  background-color: #D9D9D9;
+  flex: 0.5 1;
+}
+
+/* Spark logo */
+.logo_image{
+  padding-left: 20px;
+}
+
+/* Portrait (currently a placeholder) */
+.portrait{
+  width: 300px;
+  height: 300px;
+  margin: 25px;
+}
+
+/* Python and Java picture */
+.codingLanguagePicture{
+  width: 175px;
+  height: 175px;
 }
