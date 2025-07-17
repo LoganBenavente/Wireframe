@@ -7,7 +7,7 @@ html {
 /* p tags */
 p{
   font-family: "Albert Sans", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   margin: 10px;
 }
 
@@ -118,16 +118,33 @@ a{
 
 /* Media queries for making the boxes format nicely*/
 
-
-@media (max-width: 1050px){
-  .personalityBox{
-    flex-direction: column;
+@media (max-width: 566px){
+  .aboutPageBox {
+    margin-left: 0px;
+    margin-top: 0px;
   }
 }
 
 @media (max-width: 1250px){
   .aboutPageBox .ourMission{
     width: 100%;
+  }
+}
+
+@media (max-width: 800px){
+  .personalityBox{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .codingJourneyBox{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1050px){
+  .personalityBox{
+    flex-direction: column;
   }
 }
 
