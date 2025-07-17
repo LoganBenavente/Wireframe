@@ -8,16 +8,18 @@ html {
 p{
   font-family: "Albert Sans", sans-serif;
   font-size: 15px;
+  margin: 10px;
 }
 
 /* Header tags */
 h1{
   font-family: Alatsi;
+  margin: 10px;
 }
 
-/* About page box */
-.aboutPageBox{
-  color: #E14B14;
+h2{
+  font-family: Alatsi;
+  margin: 10px;
 }
 
 /* Navbar */
@@ -66,12 +68,24 @@ a{
   margin-top: 58px;
   display: flex;  
   flex-wrap: wrap;
+
+  h1{
+    color: #E14B14;
+  }
+
+  h2{
+    color: #E14B14;
+  }
+  
   .ourMission {
     background-color: #FFE278;
     width: 969px;
+    height: 100%;
   }
+
   .currentProjects {
     background-color: #D9D9D9;
+    height: 100%;
   }
 }
 
@@ -103,16 +117,22 @@ a{
 }
 
 /* Media queries for making the boxes format nicely*/
-@media (max-width: 1200px){
+
+
+@media (max-width: 1050px){
   .personalityBox{
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: column;
   }
 }
 
-@media (max-width: 900px){
-  .personalityBox{
-    margin-left: 50px;
-    margin-right: 50px;
+@media (max-width: 1250px){
+  .aboutPageBox .ourMission{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1400px){
+  .codingJourneyBox{
+    flex-direction: column;
   }
 }
